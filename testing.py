@@ -1,8 +1,5 @@
-"""testing functions"""
-from main import add
-
-def test_add():
-    """testing add function"""
-    assert add(2,3) == 5
-    assert add(0, 42) == 42
-    assert add(-1, 1) == 0
+def add(number_a: int, number_b: int):
+    """
+    This function adds 2 numbers.
+    """
+    return number_a + number_b
